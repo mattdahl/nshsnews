@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[TopNewsTableViewController init]:TopNewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "articles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TopArticleCell drawRect:]:TopArticleCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "bigThumbnailImageView.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsViewController init]:SettingsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[ArticleStore APIConnection:didFinishLoadingWithRequestType:withData:]:ArticleStore.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[TopNewsTableViewController viewDidLoad]:TopNewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "articles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsTableViewController initWithNibName:bundle:]:NewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "loadingView">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[ArticleStore doTask:]:ArticleStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SectionCollectionViewCell drawRect:]:SectionCollectionViewCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sectionTitle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SectionCollectionViewCell articleImageRequest:didHaveErrorLoading:error:]:SectionCollectionViewCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "backgroundImageView.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleViewController presentFacebookShareView]:ArticleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "success">
+            </PersistentString>
+            <PersistentString
+               value = "alertText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[APIConnection isConnectedToInternet]:APIConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[networkReachability currentReachabilityStatus]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleViewController initWithNibName:bundle:article:navBarTitle:]:ArticleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.navigationItem rightBarButtonItem]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__35+[ArticleStore getArticlesWithIDs:]_block_invoke:ArticleStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "a1.date">
+            </PersistentString>
+            <PersistentString
+               value = "a2.date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Article loadThumbnail]:Article.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[APIConnection parseJSONDataIntoArticles:]:APIConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "parsedJSON">
+            </PersistentString>
+            <PersistentString
+               value = "[NSNull null]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsViewController loadArticles]:NewsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleViewController initWithNibName:bundle:article:]:ArticleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "articleBody.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[APIConnection getArticlesWithIDs:]:APIConnection.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleViewController viewWillAppear:]:ArticleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.contentSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SectionNewsViewController viewWillAppear:]:SectionNewsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.tableView isUserInteractionEnabled]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsViewController initWithStyle:]:SettingsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "FBSession.activeSession.isOpen">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SectionNewsViewController viewDidAppear:]:SectionNewsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.tableView isUserInteractionEnabled]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleViewController viewDidLoad]:ArticleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "black">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchViewController tableView:didSelectRowAtIndexPath:]:SearchViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsTableViewController tableView:cellForRowAtIndexPath:]:NewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "articles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[APIConnection parseJSONDataIntoTopNewsArticleIDs:]:APIConnection.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[ArticleStore hasArticlesForSection:]:ArticleStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[topNewsSectionIDs count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__49-[ArticleViewController presentFacebookShareView]_block_invoke:ArticleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "success">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleCell awakeFromNib]:ArticleCell.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[APIConnection parseJSONDataIntoArticleIDs:]:APIConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self-&gt;requestType">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsTableViewController viewWillAppear:]:NewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[articles count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[APIConnection getDenebolaArticlesWithIDs:]:APIConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "IDs">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[ArticleStore startup]:ArticleStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[APIConnection isConnectedToInternet]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleStore initWithCoder:]:ArticleStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "articles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TopNewsTableViewController initWithStyle:]:TopNewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tabBarItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[ArticleStore getArticlesWithIDs:]:ArticleStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "featuresSectionIDs">
+            </PersistentString>
+            <PersistentString
+               value = "newsSectionIDs">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Article connection:didReceiveData:]:Article.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsViewController accountForAccountType:]:SettingsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "type">
+            </PersistentString>
+            <PersistentString
+               value = "ACAccountTypeIdentifierFacebook">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsViewController switchDidToggle:]:SettingsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[s isOn]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleViewController articleURL]:ArticleViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleCell drawRect:]:ArticleCell.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SectionNewsViewController viewDidLoad]:SectionNewsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.tableView isUserInteractionEnabled]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TopNewsTableViewController loadArticles]:TopNewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "articles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ArticleViewController viewWillDisappear:]:ArticleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.presentingViewController">
+            </PersistentString>
+            <PersistentString
+               value = "article.delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsTableViewController viewDidAppear:]:NewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "loadingView">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+            <PersistentString
+               value = "articles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchViewController tableView:cellForRowAtIndexPath:]:SearchViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sourceOptions[indexPath.row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[APIConnection parseJSONDataIntoArticles:]:APIConnection.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[TopStoryCell init]:TopStoryCell.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[APIConnection parseJSONDataIntoSectionArticleIDs:]:APIConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BodyView setFrame:]:BodyView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TopNewsTableViewController tableView:cellForRowAtIndexPath:]:TopNewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate application:didFinishLaunchingWithOptions:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self archivePath]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[APIConnection getArticleIDsWithDateRangeFrom:to:]:APIConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Article connectionDidFinishLoading:]:Article.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
