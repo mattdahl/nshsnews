@@ -37,6 +37,7 @@
     
     if ([ArticleStore hasArticlesForSection:sectionTitle]) {
         articles = [ArticleStore getArticlesForSection:sectionTitle];
+        NSLog(@"section articles: %@", articles);
         isFinishedLoading = YES;
         [self.tableView setUserInteractionEnabled:YES];
     }
@@ -86,6 +87,7 @@ forControlEvents:UIControlEventValueChanged];
 
 - (void)loadArticles {
     articles = [[NSMutableArray alloc] initWithArray:[ArticleStore getArticlesForSection:sectionTitle]];
+    [self.tableView reloadData];
     [self.tableView setNeedsDisplay];
 }
 
