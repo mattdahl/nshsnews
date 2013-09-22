@@ -3,10 +3,10 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[TopNewsTableViewController init]:TopNewsTableViewController.m">
+         contextName = "-[Article connectionDidFinishLoading:]:Article.m">
          <PersistentStrings>
             <PersistentString
-               value = "articles">
+               value = "delegate">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -79,6 +79,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "-[TopNewsTableViewController loadingViewControllerDidFinishLoading:]:TopNewsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tableView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "+[APIConnection isConnectedToInternet]:APIConnection.m">
          <PersistentStrings>
             <PersistentString
@@ -91,6 +99,17 @@
          <PersistentStrings>
             <PersistentString
                value = "[self.navigationItem rightBarButtonItem]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[ArticleStore updateArticles]:ArticleStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "topNewsSectionIDs">
+            </PersistentString>
+            <PersistentString
+               value = "lastUpdateDate">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -233,10 +252,13 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[APIConnection getDenebolaArticlesWithIDs:]:APIConnection.m">
+         contextName = "-[SettingsViewController accountForAccountType:]:SettingsViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "IDs">
+               value = "type">
+            </PersistentString>
+            <PersistentString
+               value = "ACAccountTypeIdentifierFacebook">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -249,10 +271,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[ArticleStore initWithCoder:]:ArticleStore.m">
+         contextName = "-[APIConnection getDenebolaArticlesWithIDs:]:APIConnection.m">
          <PersistentStrings>
             <PersistentString
-               value = "articles">
+               value = "IDs">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -279,13 +301,10 @@
          contextName = "-[Article connection:didReceiveData:]:Article.m">
       </ContextState>
       <ContextState
-         contextName = "-[SettingsViewController accountForAccountType:]:SettingsViewController.m">
+         contextName = "-[ArticleStore initWithCoder:]:ArticleStore.m">
          <PersistentStrings>
             <PersistentString
-               value = "type">
-            </PersistentString>
-            <PersistentString
-               value = "ACAccountTypeIdentifierFacebook">
+               value = "articles">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -399,10 +418,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[Article connectionDidFinishLoading:]:Article.m">
+         contextName = "-[TopNewsTableViewController init]:TopNewsTableViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "delegate">
+               value = "articles">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
