@@ -75,6 +75,7 @@
     NSArray *viewControllers = [NSArray arrayWithObjects:topNewsNavController, newsNavController, sectionNavController, searchNavController, settingsNavController, nil];
     [tabBarController setViewControllers:viewControllers];
     if (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1) { // Config for iOS 7 devices
+        [tabBarController.tabBar setTranslucent:NO];
         [tabBarController.tabBar setBarStyle:UIBarStyleBlack];
     }
 
