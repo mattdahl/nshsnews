@@ -45,35 +45,6 @@
     [articleDate setFont:[UIFont fontWithName:@"Helvetica-Bold" size:13.0]];
     [articleDate setTextColor:[UIColor colorWithRed:209.0/255.0 green:46.0/255.0 blue:46.0/255.0 alpha:1.0]];
     
-    
-   // [theTitle setFont:[UIFont fontWithName:@"Helvetica-Bold" size:13.0]];
-   // [theTitle setTextColor:[UIColor colorWithRed:209.0/255.0 green:46.0/255.0 blue:46.0/255.0 alpha:1.0]];
-    
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    CGContextSetRGBFillColor(ctx, 0, 0, 0, 1);
-    
-    UIFont *font = [UIFont fontWithName:@"Helvetica-Bold" size:16.0];
-    
-    CGSize maximumBodySize = CGSizeMake(220, 50);
-   /* CGSize titleSize = [articleTitle sizeWithFont:font
-                              constrainedToSize:maximumBodySize
-                                  lineBreakMode:NSLineBreakByTruncatingTail];
-    CGRect titleRect = CGRectMake(82, 8, titleSize.width, titleSize.height);
-    
-    // drawInRect:withFont:lineBreakMode: is deprecated in iOS 7 so use a different function if the device is running it
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7) {
-        NSMutableParagraphStyle *ps = [[NSMutableParagraphStyle alloc] init];
-        [ps setLineBreakMode:NSLineBreakByWordWrapping];
-       /* [articleTitle drawInRect:titleRect
-                  withAttributes:[NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, ps, NSParagraphStyleAttributeName, NSForegroundColorAttributeName, [UIColor blackColor], nil]];
-        [@"blah blah" drawAtPoint:CGPointMake(0, 0) withFont:[UIFont systemFontOfSize:[UIFont smallSystemFontSize]]];
-    }
-    else {
-        [articleTitle drawInRect:titleRect
-                        withFont:font
-                   lineBreakMode:NSLineBreakByWordWrapping];
-    } */
-    
     if (article.thumbnail) {
         [thumbnailImageView setImage:article.thumbnail];
         [thumbnailImageView.layer setBorderColor:[[UIColor blackColor] CGColor]];

@@ -59,7 +59,7 @@
     
     articleTitle = [[UILabel alloc] init];
     [articleTitle setText:article.title];
-    UIFont *font = [UIFont fontWithName:@"Helvetica-Bold" size:20];
+    UIFont *font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:20];
     
     [articleTitle setFrame:CGRectMake(5, 150, 320, 30)];
     

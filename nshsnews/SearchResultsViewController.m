@@ -63,7 +63,6 @@ static NSArray *articles;
         Article *a = [articles objectAtIndex:indexPath.row];
         
         [(ArticleCell *)cell setArticle:a];
-        [(ArticleCell *)cell setArticleTitle:a.title];
         [a setDelegate:(ArticleCell *)cell];
         [[(ArticleCell *)cell thumbnailImageView] setImage:nil]; // clears old thumbnail
         [(ArticleCell *)cell setNeedsDisplay];

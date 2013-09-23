@@ -24,7 +24,7 @@
         isFinishedLoading = NO;
         articles = [ArticleStore getArticlesForSection:sectionTitle];
         [self.tableView setUserInteractionEnabled:NO];
-        [self setTitle:[NSString stringWithFormat:@"Section: %@", t]];
+        [self setTitle:t];
     }
     return self;
 }
