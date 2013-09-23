@@ -145,7 +145,6 @@ forControlEvents:UIControlEventValueChanged];
         a = [articles objectAtIndex:indexPath.row-1];
            
     [(ArticleCell *)cell setArticle:a];
-    [(ArticleCell *)cell setArticleTitle:a.title];
     [a setDelegate:(ArticleCell *)cell];
     [[(ArticleCell *)cell thumbnailImageView] setImage:nil]; // clears old thumbnail
     [(ArticleCell *)cell setNeedsDisplay];

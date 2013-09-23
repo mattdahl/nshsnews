@@ -14,8 +14,7 @@
 @property (nonatomic, strong) Article *article;
 @property (nonatomic, strong) IBOutlet UILabel *articleDate;
 @property (nonatomic, strong) IBOutlet UIImageView *thumbnailImageView;
-@property (nonatomic, strong) NSString *articleTitle;
-
+@property (nonatomic, strong) IBOutlet UILabel *articleTitle;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier withArticle:(Article *)anArticle;
 

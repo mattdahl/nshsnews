@@ -30,7 +30,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOption {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
+        
     // registers for push notifications
     if (![[NSUserDefaults standardUserDefaults] boolForKey:@"hasBeenLaunched"] || [[NSUserDefaults standardUserDefaults] boolForKey:@"pushNotifications"]) {
         [[UIApplication sharedApplication] registerForRemoteNotificationTypes:

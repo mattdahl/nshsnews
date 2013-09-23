@@ -89,6 +89,7 @@
     //[(UIScrollView *)self.view setContentSize:CGSizeMake(320, bodyView.frame.size.height+320)];
     [(UIScrollView *)self.view setContentSize:contentSize];
     [(UIScrollView *)self.view setContentOffset:oldOffset];
+    [self.navigationItem.leftBarButtonItem setTintColor:[UIColor whiteColor]];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
