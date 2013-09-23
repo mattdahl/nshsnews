@@ -30,12 +30,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOption {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-        
-    [[UIBarButtonItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-                                                          [UIColor whiteColor], UITextAttributeTextColor,
-                                                          [UIFont systemFontOfSize:16.0f], UITextAttributeFont,
-                                                          nil] forState:UIControlStateNormal];
-    self.window.tintColor = [UIColor whiteColor];
+    
+    
+    // Config UI for iOS 7 devices
+    if (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1) {
+        [[UIBarButtonItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                              [UIColor whiteColor], UITextAttributeTextColor,
+                                                              [UIFont systemFontOfSize:16.0f], UITextAttributeFont,
+                                                              nil] forState:UIControlStateNormal];
+        self.window.tintColor = [UIColor whiteColor];
+    }
         
     // registers for push notifications
     if (![[NSUserDefaults standardUserDefaults] boolForKey:@"hasBeenLaunched"] || [[NSUserDefaults standardUserDefaults] boolForKey:@"pushNotifications"]) {
@@ -70,7 +74,9 @@
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     NSArray *viewControllers = [NSArray arrayWithObjects:topNewsNavController, newsNavController, sectionNavController, searchNavController, settingsNavController, nil];
     [tabBarController setViewControllers:viewControllers];
-    [tabBarController.tabBar setBarStyle:UIBarStyleBlack];
+    if (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1) { // Config for iOS 7 devices
+        [tabBarController.tabBar setBarStyle:UIBarStyleBlack];
+    }
 
     
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"BlankNavBarImage.png"] forBarMetrics:UIBarMetricsDefault];
