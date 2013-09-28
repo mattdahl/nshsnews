@@ -80,6 +80,8 @@
 		60756989175B0CB20083C65A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60756988175B0CB20083C65A /* libsqlite3.0.dylib */; };
 		6075698B175B0CCF0083C65A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6075698A175B0CCF0083C65A /* Security.framework */; };
 		60ADC51317F664EE0085EE25 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 60ADC51217F664EE0085EE25 /* Checkmark.png */; };
+		60ADC51617F7785F0085EE25 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 60ADC51417F7785F0085EE25 /* Icon-60.png */; };
+		60ADC51717F7785F0085EE25 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 60ADC51517F7785F0085EE25 /* Icon-120.png */; };
 		60C62C321751A57500B804DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6031B8FE16DC370D002B0F5B /* Foundation.framework */; };
 		60C62C361751B16400B804DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C62C351751B16400B804DD /* QuartzCore.framework */; };
 		60C62C3B17528DD100B804DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C62C3A17528DD100B804DD /* SystemConfiguration.framework */; };
@@ -184,6 +186,8 @@
 		60756988175B0CB20083C65A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		6075698A175B0CCF0083C65A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		60ADC51217F664EE0085EE25 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Checkmark.png; path = images/Checkmark.png; sourceTree = "<group>"; };
+		60ADC51417F7785F0085EE25 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "images/Icon-60.png"; sourceTree = "<group>"; };
+		60ADC51517F7785F0085EE25 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "images/Icon-120.png"; sourceTree = "<group>"; };
 		60C62C351751B16400B804DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		60C62C3A17528DD100B804DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		60F198E817644D9A0056772A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -376,6 +380,8 @@
 			children = (
 				60ADC51217F664EE0085EE25 /* Checkmark.png */,
 				60F198E817644D9A0056772A /* Icon.png */,
+				60ADC51417F7785F0085EE25 /* Icon-60.png */,
+				60ADC51517F7785F0085EE25 /* Icon-120.png */,
 				60F198EC17644DBB0056772A /* Icon@2x.png */,
 				6024A5A7176105D700B7AD00 /* DenebolaMastheadSmall.png */,
 				6024A5AF1762D88700B7AD00 /* DenebolaMastheadSmall@2x.png */,
@@ -485,6 +491,7 @@
 				60ADC51317F664EE0085EE25 /* Checkmark.png in Resources */,
 				60756977175AF3170083C65A /* NoImage.png in Resources */,
 				6013EDB1175C4214007FF96E /* SearchResultsViewController.xib in Resources */,
+				60ADC51717F7785F0085EE25 /* Icon-120.png in Resources */,
 				6013EDC6175D77B0007FF96E /* LionsRoarSectionThumbnail.png in Resources */,
 				6013EDCB175D7A39007FF96E /* AboutViewController.xib in Resources */,
 				6024A59E175D96D900B7AD00 /* LionsRoarSectionThumbnail@2x.png in Resources */,
@@ -494,6 +501,7 @@
 				6024A5AA176105D700B7AD00 /* LionsRoarMastheadSmall.png in Resources */,
 				6024A5AC1762D79400B7AD00 /* DenebolaThumbnail@2x.png in Resources */,
 				6024A5AE1762D87D00B7AD00 /* LionsRoarMastheadSmall@2x.png in Resources */,
+				60ADC51617F7785F0085EE25 /* Icon-60.png in Resources */,
 				6024A5B01762D88700B7AD00 /* DenebolaMastheadSmall@2x.png in Resources */,
 				6024A5B21763F4B800B7AD00 /* TopNewsTabBarImage@2x.png in Resources */,
 				6024A5BF1764339700B7AD00 /* Default@2x.png in Resources */,
