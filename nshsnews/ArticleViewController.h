@@ -19,7 +19,9 @@
     IBOutlet UIImageView *imageView;
     IBOutlet UIImageView *mastheadView;
     IBOutlet UIActivityIndicatorView *activityIndicatorView;
+    IBOutlet UIScrollView *scrollView;
     CGPoint oldOffset;
+    int adjusted;
 }
 
 @property (nonatomic, strong) Article *article;

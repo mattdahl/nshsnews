@@ -3,10 +3,10 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[Article connectionDidFinishLoading:]:Article.m">
+         contextName = "-[TopNewsTableViewController init]:TopNewsTableViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "delegate">
+               value = "articles">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -202,6 +202,14 @@
          <PersistentStrings>
             <PersistentString
                value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UITableView _selectRowAtIndexPath:animated:scrollPosition:notifyDelegate:]:(null)">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.section">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -402,6 +410,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "-[Article connectionDidFinishLoading:]:Article.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[AppDelegate application:didFinishLaunchingWithOptions:]:AppDelegate.m">
          <PersistentStrings>
             <PersistentString
@@ -414,14 +430,6 @@
          <PersistentStrings>
             <PersistentString
                value = "error">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[TopNewsTableViewController init]:TopNewsTableViewController.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "articles">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

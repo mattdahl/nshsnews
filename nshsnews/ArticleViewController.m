@@ -20,6 +20,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil article:(Article *)a navBarTitle:(NSString *)t {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        adjusted = 0;
         article = a;
         
         [self setTitle:t];
@@ -149,6 +150,17 @@
         [mastheadView setImage:[UIImage imageNamed:@"LionsRoarMastheadSmall"]];
     else if (article.newspaperType == denebolaNewspaperType)
         [mastheadView setImage:[UIImage imageNamed:@"DenebolaMastheadSmall"]];
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    
+    // Adjusts view for iOS 7
+    if (adjusted < 2) {
+        NSLog(@"adjusting...");
+        [scrollView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+        adjusted++;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
