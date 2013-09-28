@@ -19,7 +19,7 @@ static NSArray *articles;
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     
     if (self) {
-        [self.navigationItem setTitle:@"Search Results"];
+        [self.navigationItem setTitle:@"Results"];
         
         articles = a;
     }
