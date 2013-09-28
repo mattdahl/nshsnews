@@ -26,6 +26,8 @@
         sourceOptions[1] = false;
         sourceOptions[2] = false;
         
+        checkmark = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Checkmark.png"]];
+        
         lionsRoarSwitch = [[UISwitch alloc] initWithFrame:CGRectZero];
         [lionsRoarSwitch setOn:YES animated:NO];
         denebolaSwitch = [[UISwitch alloc] initWithFrame:CGRectZero];
@@ -62,8 +64,6 @@
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
-//    UIView *v = searchBar.inputView;
-    
     NSArray *foundArticles;
 
     if (sourceOptions[0] == true) {
@@ -174,9 +174,9 @@
     }
     else if (indexPath.section == 1) {
         if (sourceOptions[indexPath.row])
-            cell.accessoryType = UITableViewCellAccessoryCheckmark;
+            [cell setAccessoryView:checkmark];
         else
-            cell.accessoryType = UITableViewCellAccessoryNone;
+            [cell setAccessoryView:nil];
         
         switch (indexPath.row) {
             case 0:
@@ -192,7 +192,6 @@
                 break;
         }
     }
-        
     return cell;
 }
 

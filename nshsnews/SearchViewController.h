@@ -14,6 +14,7 @@
     
     UISwitch *lionsRoarSwitch;
     UISwitch *denebolaSwitch;
+    UIImageView *checkmark;
 }
 
 @end
